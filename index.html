@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh>
+<head>
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>購物車</title>
+
+
+<link rel="stylesheet" href="./cart.scss">
+</head>
+
+<body>
+    <div class="ShopCart">
+        <h3>我的購物車</h3>
+    </div>
+
+    <div class="cart_body cart1">
+        <div class="cart_info" style="">
+            <div id="cart_goods_info">
+                <table cellpadding="0" border="0" cellspacing="0" class="cart_tab cart_tab_goods">
+                    <thead>
+                        <tr>
+                            <th colspan="2" class="choose w50">
+                                <label class="cart-checkbox allbuy-selected"><input type="checkbox" id="cart-goods-all"
+                                        value="1" checked="checked"><span>全選</span></label></th>
+                            <th class="w450">
+                                商品名稱</th>
+                            <th class="w130">
+                                優惠價</th>
+                            <th class="w70">
+                                數量</th>
+                            <th class="w80">
+                                小計</th>
+                            <th class="w50">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <!--3-->
+                        <tr class="cartgoods buy-selected" cartid="44051" price="118" points="1" qn="-1"
+                            accessoriesno="false" buysum="1" xzno="1">
+                            <td class="checkbox">
+                                <label class="cart-checkbox"><input type="checkbox" name="cart-items"
+                                        id="cart-items-44051" value="44051" checked="checked"></label></td>
+                            <td class="w80">
+                                <a onfocus="this.blur();" href="product.asp?Gid=14824" target="_blank">
+                                    <img src="./img/earring1.jpeg" width="100" height="100"></a></td>
+                            <td class="w450">
+                                <a onfocus="this.blur();" href="product.asp?Gid=14824" target="_blank">FEATHER_玫瑰金黑_穿孔耳環</a></td>
+                            <td class="w130">
+                                580元</td>
+                            <td class="w70">
+                                <div class="qn_info">
+                                    <div class="item-amount ">
+                                        <input type="hidden" name="lodo_goods_quantity_44051"
+                                            id="lodo_goods_quantity_44051" value="-1">
+
+                                        <input type="text" id="req_good_num44051" name="req_good_num44051"
+                                            onblur="chkDozen(this,1,1,44051)" value="1" class="text text-amount"
+                                            size="2">
+
+                                    </div>
+                                    <div class="divclear0">
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w80">
+                                NT$<span id="cart_goods_44051_totalprice">580</span>元</td>
+                            <td class="w90">
+                                <a class="" href="javascript:adduserFavorites(14824)">移至追蹤清單</a>
+                                <a href="javascript:void(0);" class="btn_cart_del" cartid="44051">
+                                    刪除</a></td>
+                        </tr>
+
+                        <!--3-->
+                        <tr class="cartgoods buy-selected" cartid="44051" price="118" points="1" qn="-1"
+                            accessoriesno="false" buysum="1" xzno="1">
+                            <td class="checkbox">
+                                <label class="cart-checkbox"><input type="checkbox" name="cart-items"
+                                        id="cart-items-44051" value="44051" checked="checked"></label></td>
+                            <td class="w80">
+                                <a onfocus="this.blur();" href="product.asp?Gid=14824" target="_blank">
+                                    <img src="./img/earring2.jpeg" width="100" height="100"></a></td>
+                            <td class="w450">
+                                <a onfocus="this.blur();" href="product.asp?Gid=14824" target="_blank">WING_銀亮金白_穿孔耳環</a></td>
+                            <td class="w130">
+                                680元</td>
+                            <td class="w70">
+                                <div class="qn_info">
+                                    <div class="item-amount ">
+                                        <input type="hidden" name="lodo_goods_quantity_44051"
+                                            id="lodo_goods_quantity_44051" value="-1">
+
+                                        <input type="text" id="req_good_num44051" name="req_good_num44051"
+                                            onblur="chkDozen(this,1,1,44051)" value="1" class="text text-amount"
+                                            size="2">
+
+                                    </div>
+                                    <div class="divclear0">
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w80">
+                                NT$<span id="cart_goods_44051_totalprice">680</span>元</td>
+                            <td class="w90">
+                                <a class="" href="javascript:adduserFavorites(14824)">移至追蹤清單</a>
+                                <a href="javascript:void(0);" class="btn_cart_del" cartid="44051">
+                                    刪除</a></td>
+                        </tr>
+
+                        <!--3-->
+                        <tr class="cartgoods buy-selected" cartid="44051" price="118" points="1" qn="-1"
+                            accessoriesno="false" buysum="1" xzno="1">
+                            <td class="checkbox">
+                                <label class="cart-checkbox"><input type="checkbox" name="cart-items"
+                                        id="cart-items-44051" value="44051" checked="checked"></label></td>
+                            <td class="w80">
+                                <a onfocus="this.blur();" href="product.asp?Gid=14824" target="_blank">
+                                    <img src="./img/earring4.jpeg" width="100" height="100"></a></td>
+                            <td class="w450">
+                                <a onfocus="this.blur();" href="product.asp?Gid=14824" target="_blank">GEM_寶石綠_穿孔耳環</a></td>
+                            <td class="w130">
+                                780元</td>
+                            <td class="w70">
+                                <div class="qn_info">
+                                    <div class="item-amount ">
+                                        <input type="hidden" name="lodo_goods_quantity_44051"
+                                            id="lodo_goods_quantity_44051" value="-1">
+
+                                        <input type="text" id="req_good_num44051" name="req_good_num44051"
+                                            onblur="chkDozen(this,1,1,44051)" value="1" class="text text-amount"
+                                            size="2">
+
+                                    </div>
+                                    <div class="divclear0">
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w80">
+                                NT$<span id="cart_goods_44051_totalprice">780</span>元</td>
+                            <td class="w90">
+                                <a class="" href="javascript:adduserFavorites(14824)">移至追蹤清單</a>
+                                <a href="javascript:void(0);" class="btn_cart_del" cartid="44051">
+                                    刪除</a></td>
+                        </tr>
+
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="8" align="center" valign="middle">
+                                <div class="inall">
+                                    <ul>
+                                        <li>
+                                            <div class="left">
+                                                您的購物車裡有商品：</div>
+                                            <div class="right">
+                                                <font id="cart_goods_sum">3</font>種
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="left">
+                                                商品金額合計：</div>
+                                            <div class="right">
+                                                NT$<font id="cart_goods_price">2040</font>元</div>
+                                        </li>
+                                        <li id="cart_goods_accessories_sum_info" style="display: none">
+                                            <div class="left">
+                                                您的購物車裡有週邊商品：</div>
+                                            <div class="right">
+                                                <font id="cart_goods_accessories_sum">0</font>種
+                                            </div>
+                                        </li>
+
+                                        <li class="inall1">
+                                            <div class="left">
+                                                金額合計：</div>
+                                            <div class="right">
+                                                NT$<font id="cart_goods_totalprice">2040</font>元</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+
+
+            <div id="cart_fcgnstr_list"></div>
+            <!--1-->
+
+            <div class="divclear"></div>
+        </div>
+        <div id="cart_activity_list"> </div>
+        <div id="cart_orderchoose_list"></div>
+    </div>
+    <div class="float_bar clearfix" id="cart_float" style="position: relative;">
+        <ul class="cartOperation">
+            <li>
+                <label class="cart-checkbox  cart-checkbox-selected allbuy-selected">
+                    <input type="checkbox" id="cart-all-yes" value="1" name="allselect" checked="checked">
+                    <span>全選</span></label>
+            </li>
+            <li class="operations"><a href="javascript:void(0);" class="cart-selected-del">
+                    刪除</a> </li>
+            <li class="clearitem"><a href="javascript:void(0);" onclick="cart_delall();" id="btn_cart_delall">
+                    清空購物車</a> </li>
+        </ul>
+        <!--商品總價位置變化與繼續購物樣式變化-->
+        <div class="pay_bar clearfix">
+            <div class="price_check_box addsty">
+
+                <p class="total_item">
+                    合計(未含物流處理費) <b>NT$</b> <span id="cart_totalprice">2040</span>元
+                </p>
+            </div>
+        </div>
+        <ul class="c_pay">
+            <li class="wrap_btn"><a class="btn_order goshopping" id="shoppingCart2Index" href="index.asp">
+                    繼續逛逛</a> <a class="btn_order" onclick="gotocart2('login.asp?action=Cart&amp;formurl=cart2.asp');"
+                    href="javascript:void(0);">結帳</a> </li>
+        </ul>
+    </div>
+    <div class="cart-wrapper clearfix" style="display:none;">
+        <!--S PICK-->
+        <div class="cart-pick-box">
+            <div class="cart-pick-other">
+                購物車尚未有商品 <a href="/ld_search.asp">馬上去逛逛&gt;&gt;</a>
+            </div>
+            <div class="cart-pick-search">
+                <form action="/ld_search.asp" method="get" class="search-form">
+                    <input autocomplete="off" class="search-input" name="Gstr" id="js-search-key" type="text"
+                        maxlength="50" placeholder="試試搜尋">
+                    <input type="submit" value="" class="search-btn">
+                </form>
+                <div style="text-align: center;padding-top: 10px;color: #999;">如您尚未登入，可能導致購物車為空，請先<a href="/login.asp"
+                        class="login_btn">登入</a></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>

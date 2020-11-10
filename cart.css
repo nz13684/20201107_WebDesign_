@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gCart.hd h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  float: left;
+}
+
+div {
+  display: block;
+}
+
+.cart_body {
+  width: 100%;
+  color: #323232;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.cart_tab th.choose {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.cart_tab .w50 {
+  width: 50px;
+}
+
+.cart_tab th {
+  text-indent: 7px;
+  font-size: 12px;
+  height: 40px;
+  line-height: 31px;
+  text-align: center;
+  color: #000;
+  white-space: nowrap;
+  font-weight: 300;
+  background: #efeae5;
+  border-top: 0px solid #bbb;
+}
+
+address, caption, em, strong, th, i {
+  font-style: normal;
+}
+
+dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, fieldset, p, blockquote, th, td, input, form {
+  margin: 0;
+  padding: 0;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+/*# sourceMappingURL=cart.css.map */
