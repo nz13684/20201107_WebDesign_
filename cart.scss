@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +9,36 @@
 
 //背景
 body {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: black;
+}
+
+//navbar
+.container {
+    background-color: black !important;
+}
+.navbar {
+    height: 200px;
+    background-color: black !important;
+    color: whitesmoke;
+}
+.navbar-brand img {
+    height: 200px;
+    width: 200px;
+}
+.dropdown-menu {
+    background-color: black !important;
+}
+
+.card-img-top {
+    margin: 0 auto;
+    
+    @media screen and (max-width: $mobile) {
+        padding: 30px;
+    }
+}
+
+p {
+    font-family: 'Markazi Text', serif;
 }
 
 //mycart
@@ -80,8 +112,11 @@ button #delete {
     line-height: 20px;
     margin-right: 200px;
 }
+.totalline {
+    color: white;
+}
 p {
-    color: #888888;
+    color:white;
     font-size: 10px;
 }
 
