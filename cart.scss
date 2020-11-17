@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
 
+$desktop: 1025px;
+$table: 1024px;
+$mobile: 767px; 
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +17,17 @@ body {
 }
 
 //navbar
+.carousel-item {
+    @media screen and (min-width: $desktop) {
+        height: 620px;    
+    }
+    @media screen and (max-width: $table) {
+        height: 620px;    
+    }
+    @media screen and (max-width: $mobile) {
+        height: 230px;
+    }
+}
 .container {
     background-color: black !important;
 }
@@ -29,18 +44,6 @@ body {
     background-color: black !important;
 }
 
-.card-img-top {
-    margin: 0 auto;
-    
-    @media screen and (max-width: $mobile) {
-        padding: 30px;
-    }
-}
-
-p {
-    font-family: 'Markazi Text', serif;
-}
-
 //mycart
 h3 {
     font-size: 25px;
@@ -54,7 +57,7 @@ h3 {
     width: 1000;
     margin: 0 auto;
     height: 30px;
-    color: white;
+    color: whitesmoke;
     background-color: #000;
     border-radius: 3px; //圓角屬性
     padding-left: 25px;
@@ -69,7 +72,7 @@ h3 {
 .item-header div {
     display: inline-block;
     width: 280px;
-    color: #fff;
+    color: whitesmoke;
 }
 
 .item-header .item-detail{
@@ -87,12 +90,16 @@ h3 {
     height: 80px;
     border-radius: 3px;
     float: left;
+    display: flex;
+    align-items: center;
 }
 
 .item-detail .name {
     margin-left: 100px;
     margin-top: 20px;
     font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 
 //operate
@@ -100,10 +107,16 @@ h4 {
     display: inline;
     font-size: 17px;
 }
-button #delete {
+#reduce, #add {
+    margin: 5px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+#delete {
     display: inline;
     margin: 5px;
     font-size: 8px;
+    border-radius: 3px;
 }
 
 //總計 total
@@ -114,10 +127,10 @@ button #delete {
     margin-right: 200px;
 }
 .totalline {
-    color: white;
+    color: #F9BF45
 }
 p {
-    color:white;
+    color:#8888;
     font-size: 10px;
 }
 
@@ -144,6 +157,12 @@ p {
 .yuan {
     display: inline;
     text-align: right;
-    color: #000;
+    color: whitesmoke;
+}
+
+#copyright {
+    font-size: 16px;
+    background: #000 !important;
+    width: 100%;    
 }
 
