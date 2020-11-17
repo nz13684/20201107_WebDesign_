@@ -9,7 +9,7 @@
 
 //背景
 body {
-    background-color: black;
+    background: black !important;
 }
 
 //navbar
@@ -64,6 +64,11 @@ h3 {
 //列表-商品
 .commodity {
     padding-left: 10px;
+}
+
+#delete {
+    padding: 5px;
+    font-size: 8px;
 }
 
 
